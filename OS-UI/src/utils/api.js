@@ -33,11 +33,16 @@ requests.interceptors.response.use(config => {
       return;
     }
   }
-  if (config.data.message) {
+  if (config.data.code == 200) {
     Message.success({
       message: config.data.message
     })
   }
+  //  else {
+  //   Message.error({
+  //     message: config.data.message
+  //   })
+  // }
   return config.data
 },
   error => {

@@ -20,7 +20,7 @@
       ref="multipleTable"
       tooltip-effect="dark"
       @selection-change="handleSelectionChange"
-      style="width: 65%; margin-top: 20px"
+      style="width: 70%; margin-top: 20px"
     >
       <el-table-column type="selection" align="center" width="55">
       </el-table-column>
@@ -45,7 +45,7 @@
           </el-switch>
         </template>
       </el-table-column>
-      <el-table-column fixed="right" label="操作" width="150">
+      <el-table-column label="操作" width="150">
         <template slot-scope="scope">
           <el-button
             @click="editPosition(scope.row)"

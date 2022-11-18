@@ -17,7 +17,7 @@ html {
   padding: 10px;
   margin: 0px;
   overflow-x: hidden;
-  overflow-y: hidden;
+  // overflow-y: hidden;
   background-color: rgb(220, 223, 234);
   #app {
     border-radius: 20px;

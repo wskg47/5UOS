@@ -53,7 +53,7 @@ public class JoblevelController {
 
     @ApiOperation(value = "删除职称")
     @DeleteMapping("/{id}")
-    public RespBean deleteJoblevel(Integer id){
+    public RespBean deleteJoblevel(@PathVariable Integer id){
         if (joblevelService.removeById(id)) {
             return RespBean.success("删除成功");
         }
