@@ -17,13 +17,21 @@
         id, name, parentId, depPath, enabled, isParent
     </sql>
     <!--    增加部门-->
-    <insert id="addDepartment" statementType="CALLABLE">
-        call addDep(#{name,mode=IN,jdbcType=VARCHAR},#{parentId,mode=IN,jdbcType=INTEGER},#{enabled,mode=IN,
-        jdbcType=BOOLEAN},#{result,mode=OUT,jdbcType=INTEGER},#{id,mode=OUT,jdbcType=INTEGER})
-    </insert>
+    <select id="addDepartment" statementType="CALLABLE">
+        call addDep(
+            #{name,mode=IN,jdbcType=VARCHAR},
+            #{parentId,mode=IN,jdbcType=INTEGER},
+            #{enabled,mode=IN,jdbcType=BOOLEAN},
+            #{result,mode=OUT,jdbcType=INTEGER},
+            #{id,mode=OUT,jdbcType=INTEGER}
+            )
+    </select>
     <!-- 删除部门 : 调用存储过程 CALLABLE -->
     <delete id="deleteDepartment" statementType="CALLABLE">
-        call deleteDep(#{id,mode=IN,jdbcType=INTEGER},#{result,mode=OUT,jdbcType=INTEGER})
+        call deleteDep(
+            #{id,mode=IN,jdbcType=INTEGER},
+            #{result,mode=OUT,jdbcType=INTEGER}
+            )
     </delete>
 
     <!--    获取全部部门-->
@@ -35,7 +43,7 @@
         select
         <include refid="Base_Column_List" />
         from t_department
-        where parentId= #{partmentId}
+        where parentId= #{parentId}
     </select>
 
 </mapper>
