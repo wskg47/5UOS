@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9657d2ec-a60d-4e8b-8ad8-fb804e58ce67" name="Changes" comment="">
+    <list default="true" id="9657d2ec-a60d-4e8b-8ad8-fb804e58ce67" name="Changes" comment="完善bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/controller/JoblevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/controller/JoblevelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yun-server/src/main/resources/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/src/main/resources/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/controller/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/controller/DepartmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/controller/JoblevelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/controller/JoblevelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/pojo/RespBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/pojo/RespBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/pojo/RespBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/pojo/RespBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/service/impl/EmployeeServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OS-UI/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/basicInformation/DepartmentManagement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/basicInformation/DepartmentManagement.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/basicInformation/PositionManagement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/basicInformation/PositionManagement.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/basicInformation/Promise.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/basicInformation/Promise.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/basicInformation/TitleManagement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/basicInformation/TitleManagement.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/utils/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/views/sys/SysBasic/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/views/sys/SysBasic/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/OperationManagement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/OperationManagement.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/src/store/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/store/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/src/views/emp/EmpBasic/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/views/emp/EmpBasic/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/src/views/sys/SysAdmin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/views/sys/SysAdmin/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,8 +221,28 @@
       <workItem from="1668140983415" duration="6386000" />
       <workItem from="1668228132011" duration="9102000" />
       <workItem from="1668399261474" duration="4452000" />
-      <workItem from="1668497940366" duration="11146000" />
+      <workItem from="1668497940366" duration="13398000" />
+      <workItem from="1668940778067" duration="3490000" />
+      <workItem from="1669370983105" duration="1088000" />
+      <workItem from="1669531126821" duration="1295000" />
+      <workItem from="1669618297326" duration="3828000" />
+      <workItem from="1669707668467" duration="1225000" />
     </task>
+    <task id="LOCAL-00001" summary="完善bug">
+      <created>1668773852369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668773852369</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完善bug">
+      <created>1668773994301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668773994301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +258,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完善bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

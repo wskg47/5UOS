@@ -58,7 +58,7 @@ public class EmployeeServiceImpl extends ServiceImpl<EmployeeMapper, Employee> i
         List<Map<String, Object>> maps = employeeMapper.selectMaps(new QueryWrapper<Employee>().select("max(workID)"));
         //将获得的Map第一个值 通过key取值 取出toString后转化为Integer类型 再格式化为String类型
         //添加工号的情况下是获得最大的工号 +1以后就是添加以后的工号
-        return RespBean.success(null,String.format("%08d",Integer.parseInt(maps.get(0).get("max(workID)").toString())+1));
+        return RespBean.success("获取工号成功",String.format("%08d",Integer.parseInt(maps.get(0).get("max(workID)").toString())+1));
     }
 
     /**

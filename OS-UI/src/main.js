@@ -7,7 +7,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 // 字体图标
 import 'font-awesome/css/font-awesome.css'
 
-Vue.use(ElementUi)
+Vue.use(ElementUi, { size: "small" })
 
 // 统一管理api接口
 import * as api from '@/api'

@@ -25,6 +25,7 @@ public class RespBean {   //  公共返回对象
      * @return
      */
     public static RespBean success(String message) {
+
         return new RespBean(200, message, null);
     }
 
@@ -36,6 +37,7 @@ public class RespBean {   //  公共返回对象
      * @return
      */
     public static RespBean success(String message, Object obj) {
+
         return new RespBean(200, message, obj);
     }
 

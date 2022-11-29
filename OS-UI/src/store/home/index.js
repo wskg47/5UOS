@@ -1,5 +1,4 @@
 const state = {
-  index: 1
 }
 const mutations = {
 

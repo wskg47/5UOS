@@ -48,3 +48,38 @@ export const getAllDepartment = () => requests({ url: '/system/basic/department/
 export const addDepartment = (data) => requests({ url: '/system/basic/department/', method: 'post', data })
 // 删除部门
 export const deleteDepartment = (id) => requests({ url: `/system/basic/department/${id}`, method: 'delete' })
+
+// 获取所有操作员
+export const getAllOperation = () => requests({ url: `/system/admin/`, method: 'get' })
+// 通过关键词搜索操作员
+export const getKeywordsSearch = (keywords) => requests({ url: `/system/admin/?keywords=${keywords}`, method: 'get' })
+// 更新操作员
+export const updateOperation = (data) => requests({ url: '/system/admin/', method: 'post', data })
+// 获取所有操作员角色
+export const getAdminRoles = () => requests({ url: '/system/admin/roles', method: 'get' })
+// 更新操作员角色
+export const updateRoles = (url) => requests({ url: url, method: 'put' })
+
+// 获取所有员工
+export const getAllEmployee = (currentPage, size, name) => requests({
+  url: `/employee/basic/?currentPage=${currentPage}&size=${size}&name=${name}`,
+  method: 'get'
+})
+// 获得所有政治面貌
+export const getPoliticsStatus = () => requests({ url: '/employee/basic/politicsStatus', method: 'get' })
+// 获取民族
+export const getNations = () => requests({ url: '/employee/basic/nations', method: 'get' })
+// 获取职位
+export const getPositions = () => requests({ url: '/employee/basic/positions', method: 'get' })
+// 获得职称
+export const getJobLevels = () => requests({ url: '/employee/basic/joblevels', method: 'get' })
+// 获得工号
+export const getWorkId = () => requests({ url: '/employee/basic/maxWorkId', method: 'get' })
+// 获得部门
+export const getDepartments = () => requests({ url: '/employee/basic/departments', method: 'get' })
+// 添加员工
+export const addEmployee = (data) => requests({ url: '/employee/basic/', method: 'post', data })
+// 删除员工信息
+export const deleteEmployee = (id) => requests({ url: `/employee/basic/${id}`, method: 'delete' })
+// 更新员工信息
+export const updateEmployeeInfo = (data) => requests({ url: '/employee/basic/', method: 'put', data })
