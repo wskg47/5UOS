@@ -7,6 +7,7 @@
       active-text-color="#FFFFFF"
       router
       unique-opened
+      :default-active="$route.path"
     >
       <el-submenu
         :index="index + ''"

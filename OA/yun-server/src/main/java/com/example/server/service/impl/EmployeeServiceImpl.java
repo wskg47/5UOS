@@ -78,11 +78,9 @@ public class EmployeeServiceImpl extends ServiceImpl<EmployeeMapper, Employee> i
         //转化为年  并加入到合同期限中去
         employee.setContractTerm(Double.parseDouble(decimalFormat.format(days/365.00)));
         if (1 == employeeMapper.insert(employee)){
-            System.out.println(employeeMapper.getEmployeeExcel(employee.getId())+ "****");
-            System.out.println("==========================================================================================================");
+            System.out.println(employeeMapper.getEmployeeExcel(employee.getId()));
             // 获取员工
             Employee emp = employeeMapper.getEmployeeExcel(employee.getId()).get(0);
-            System.out.println(emp+"****************");
             // 唯一标识符UUID
             String msgID = UUID.randomUUID().toString();
             MailLog mailLog = new MailLog();

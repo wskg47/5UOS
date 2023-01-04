@@ -101,7 +101,8 @@ export default {
   display: flex;
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
-  height: 8vh !important;
+  // height: 8vh !important;
+  min-height: 8vh;
   .logo {
     display: flex;
     align-items: center;

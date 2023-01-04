@@ -24,11 +24,25 @@
         >
       </div>
       <div>
-        <el-button type="success" size="small" icon="el-icon-upload2"
-          >导入数据</el-button
+        <el-upload
+          class="upload-demo"
+          action="/employee/basic/import"
+          :headers="headers"
+          :show-file-list="false"
+          :before-upload="beforeImport"
+          :on-success="importSuccess"
+          :on-error="importError"
         >
-        <el-button type="success" size="small" icon="el-icon-download"
-          >导入数据</el-button
+          <el-button type="success" size="small" :icon="importDataIcon">{{
+            importDataText
+          }}</el-button>
+        </el-upload>
+        <el-button
+          type="success"
+          size="small"
+          icon="el-icon-download"
+          @click="downloadEmployeeInfo"
+          >导出数据</el-button
         >
         <el-button
           type="primary"
@@ -82,6 +96,11 @@ export default {
       dialogTitle: '',
       editData: {},
       workId: '',
+      importDataText: '导入数据',
+      importDataIcon: 'el-icon-upload2',
+      headers: {
+        Authorization: window.sessionStorage.getItem('tokenStr'),
+      },
     }
   },
   methods: {
@@ -140,6 +159,28 @@ export default {
         this.workId = result.obj
       }
     },
+    // 员工信息导出
+    downloadEmployeeInfo() {
+      this.$API.downloadEmployeeInfo()
+    },
+    //
+    beforeImport() {
+      this.importDataText = '正在导入'
+      this.importDataIcon = 'el-icon-loading'
+    },
+    // 上传文件成功回调
+    importSuccess() {
+      console.log(111)
+      this.importDataText = '导入数据'
+      this.importDataIcon = 'el-icon-upload2'
+      this.$message.success('文件导入成功')
+    },
+    // 上传文件失败回调
+    importError() {
+      this.importDataText = '导入数据'
+      this.importDataIcon = 'el-icon-upload2'
+      this.$message.error('文件导入失败')
+    },
   },
   mounted() {
     this.getWorkId()
@@ -156,5 +197,9 @@ export default {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+}
+.upload-demo {
+  display: inline-flex;
+  margin-right: 10px;
 }
 </style>

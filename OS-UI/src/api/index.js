@@ -1,5 +1,9 @@
 import requests from '@/utils/api'
+import downloadService from '@/utils/download'
 
+
+// 员工信息导出
+export const downloadEmployeeInfo = () => downloadService({ url: '/employee/basic/export', method: 'get' })
 
 // 登录
 export const submitLogin = data => requests({ url: '/login', method: 'post', data })

@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9657d2ec-a60d-4e8b-8ad8-fb804e58ce67" name="Changes" comment="完善bug">
+    <list default="true" id="9657d2ec-a60d-4e8b-8ad8-fb804e58ce67" name="Changes" comment="完善">
+      <change afterPath="$PROJECT_DIR$/../OS-UI/src/utils/download.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/pojo/RespBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/pojo/RespBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/src/main/java/com/example/server/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/pojo/RespBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/pojo/RespBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yun-server/target/classes/com/example/server/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OS-UI/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/OperationManagement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/components/systemManagement/OperationManagement.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/store/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/store/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/src/components/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/components/Aside.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OS-UI/src/views/Home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/views/Home/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OS-UI/src/views/emp/EmpBasic/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/views/emp/EmpBasic/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OS-UI/src/views/sys/SysAdmin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../OS-UI/src/views/sys/SysAdmin/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +222,14 @@
       <workItem from="1669370983105" duration="1088000" />
       <workItem from="1669531126821" duration="1295000" />
       <workItem from="1669618297326" duration="3828000" />
-      <workItem from="1669707668467" duration="1225000" />
+      <workItem from="1669707668467" duration="3327000" />
+      <workItem from="1669726849587" duration="119000" />
+      <workItem from="1669877861730" duration="1700000" />
+      <workItem from="1670073127153" duration="700000" />
+      <workItem from="1672027711368" duration="14000" />
+      <workItem from="1672027747956" duration="14000" />
+      <workItem from="1672053188091" duration="50000" />
+      <workItem from="1672805532662" duration="757000" />
     </task>
     <task id="LOCAL-00001" summary="完善bug">
       <created>1668773852369</created>
